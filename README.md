@@ -24,7 +24,6 @@ Once the malware is executed on the target machine, we’ll establish a command-
 
 #
 ![Sliver](https://github.com/user-attachments/assets/e57b9ef5-da44-413c-b173-c09420416ac1)
-![Payloads](https://github.com/user-attachments/assets/8c23d5f2-c17e-4f94-9f4f-aadcd566660e)
 
 ![Malware](https://github.com/user-attachments/assets/650f65ff-64b7-4826-9cdc-b2aeb85838bb)
 ![WinVM_Staged](https://github.com/user-attachments/assets/e6cf64a2-0c0a-4be0-b9f2-8342acc841cd)
