@@ -28,3 +28,6 @@ Once the malware is executed on the target machine, we’ll establish a command-
 ![Malware](https://github.com/user-attachments/assets/650f65ff-64b7-4826-9cdc-b2aeb85838bb)
 
 ![Session](https://github.com/user-attachments/assets/ed365d2e-c8f8-4fc5-9c51-dcd5bf18ae4f)
+
+#
+With an active session now established between the two machines, the attacker machine can start exploring the target. This includes inspecting privileges, gathering system information, and identifying any security measures present on the host.
