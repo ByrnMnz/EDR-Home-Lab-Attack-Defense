@@ -47,6 +47,8 @@ LimaCharlie allows us to check the payload’s hash through VirusTotal; however,
 #
 Next, we can simulate a credential theft attack by extracting LSASS memory from the attacker's machine. On LimaCharlie, we can monitor the sensors, analyze the telemetry, and create rules to detect this sensitive process activity.
 ![SensitiveData](https://github.com/user-attachments/assets/51fd5fb5-8192-4c70-a0d3-889ab3f7fe7f)
+
 ![D R Rules](https://github.com/user-attachments/assets/e7b74752-27d1-4e02-9d6a-67d3879b3af1)
 
-
+#
+Moving beyond detection, we can now use LimaCharlie to craft a rule that identifies and blocks attacks from the Sliver server. On the Ubuntu machine, we’ll simulate a ransomware attack by trying to delete volume shadow copies. Through LimaCharlie, we can observe this activity in the telemetry and then create a rule to prevent the attack entirely. Once the rule is active in our SIEM, any further attempts from the Ubuntu machine to execute this attack will be unsuccessful.
