@@ -15,7 +15,7 @@ The initial step in this lab involves configuring both the attacker and target m
 
 ![Sensors](https://github.com/user-attachments/assets/c0caeb25-40f3-4d80-98eb-41c629020f43)
 
-Installing Ubuntu Server:
+## Installing Ubuntu Server:
 ![Server_Maching](https://github.com/user-attachments/assets/0e4dba71-9438-4828-9e17-df0fe3d97f4d)
 
 ## Attacking & Defending
