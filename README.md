@@ -31,3 +31,22 @@ Once the malware is executed on the target machine, we’ll establish a command-
 
 #
 With an active session now established between the two machines, the attacker machine can start exploring the target. This includes inspecting privileges, gathering system information, and identifying any security measures present on the host.
+
+![File_execution](https://github.com/user-attachments/assets/78882b6f-7a36-4f8a-8040-b711e7e841ec)
+![Proccessess](https://github.com/user-attachments/assets/bfdbf6b7-109f-4392-a763-835634d82b09)
+
+#
+Within the LimaCharlie SIEM on the host machine, we can monitor the attacker's telemetry data. This includes detecting the active payload and identifying the IP address it's connected to.
+![Lima_Charlie](https://github.com/user-attachments/assets/a5b1eec1-1b34-4663-a672-bbf235e51bc6)
+![Network_file](https://github.com/user-attachments/assets/d6a40c04-8abb-4e05-9e37-d80004b0318e)
+
+#
+LimaCharlie allows us to check the payload’s hash through VirusTotal; however, since this payload was newly created, the scan will return clean.
+![hash](https://github.com/user-attachments/assets/c024cdc3-19f1-4c95-8a34-0e8101230064)
+
+#
+Next, we can simulate a credential theft attack by extracting LSASS memory from the attacker's machine. On LimaCharlie, we can monitor the sensors, analyze the telemetry, and create rules to detect this sensitive process activity.
+![SensitiveData](https://github.com/user-attachments/assets/51fd5fb5-8192-4c70-a0d3-889ab3f7fe7f)
+![D R Rules](https://github.com/user-attachments/assets/e7b74752-27d1-4e02-9d6a-67d3879b3af1)
+
+
