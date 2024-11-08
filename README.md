@@ -5,7 +5,7 @@ This lab focuses on replicating a real-world cyberattack scenario with endpoint 
 
 Eric Capuano's Guide: https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro?utm_campaign=post&utm_medium=web
 
-# Setup
+## Setup
 The initial step in this lab involves configuring both the attacker and target machines. The attacker machine will operate on Ubuntu Server, while the target machine will run Windows 11. To ensure the lab runs without issues, Microsoft Defender and certain other security settings on the Windows machine will need to be disabled. Sliver will be installed on the Ubuntu machine as the main attack tool, while LimaCharlie will be set up on the Windows machine as the EDR solution. LimaCharlie will have a sensor connected to the Windows endpoint and will be configured to import sysmon logs for monitoring.
 
 ## Windows 11 Machine configurations
@@ -18,11 +18,12 @@ The initial step in this lab involves configuring both the attacker and target m
 Installing Ubuntu Server:
 ![Server_Maching](https://github.com/user-attachments/assets/0e4dba71-9438-4828-9e17-df0fe3d97f4d)
 
-# Attacking & Defending
+## Attacking & Defending
 We’ll generate a payload in Sliver and deploy it onto the Windows host. 
 Once the malware is executed on the target machine, we’ll establish a command-and-control session to interact with the endpoint via the command prompt.
 
-#![Sliver](https://github.com/user-attachments/assets/e57b9ef5-da44-413c-b173-c09420416ac1)
+#
+![Sliver](https://github.com/user-attachments/assets/e57b9ef5-da44-413c-b173-c09420416ac1)
 ![Payloads](https://github.com/user-attachments/assets/8c23d5f2-c17e-4f94-9f4f-aadcd566660e)
 
 ![Malware](https://github.com/user-attachments/assets/650f65ff-64b7-4826-9cdc-b2aeb85838bb)
